@@ -1,0 +1,20 @@
+title: Allen.ee
+description: 技术分享、生活记录、项目笔记
+url: "https://allen.ee"
+baseurl: ""
+
+author:
+  name: Allen
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
