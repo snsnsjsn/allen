@@ -7,6 +7,13 @@ author:
   name: Allen
 
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
 permalink: /:categories/:year/:month/:day/:title/
 
 plugins:
